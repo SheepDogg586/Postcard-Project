@@ -3,7 +3,7 @@ body {
 }
 
 .postcard {
-	background: orange;
+	background: rgb(0, 255, 238);
 	width: 400px;
 	height: 300px;
 	margin: auto;
@@ -11,6 +11,7 @@ body {
 .postcard-header {
 	display: flex;
 	padding: 10px;
+	font-family: "Lobster", cursive;
 }
 .postcard-header img {
 	width: 50px;
@@ -22,6 +23,8 @@ body {
 }
 .postcard-body {
 	display: flex;
+	font-family: "Lobster", cursive;
+	font-size: 15px;
 }
 .body-left p:first-child {
 	margin-top: 0;
